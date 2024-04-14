@@ -4,44 +4,132 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>World War II</title>
+        <link rel="stylesheet" href="./main.css"/>
+    
+        <!-- fontes para os h1-h2-h3 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+        <!-- fontes para os textos (p) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Taviraj&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div class="container">
-            <header>
-            <h1>World War II</h1>
+        <header>
+            <div class="container">
+                
+                <img id="star1" src="./imagens/Estrela 2.jpg" />
+                <h1>World War II</h1>
+                <img id="star2" src="./imagens/Estrela 2.jpg" />
+        
                 <div class="guias">
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">O início</a>
+                                <a href="#i_guerra">O início</a>
                             </li>
                             <li>
-                                <a href="#">Pácifico</a>
+                                <a href="#paci">Pácifico</a>
                             </li>
                             <li>
-                                <a href="#">Exércitos</a>
+                                <a href="#exer">Exércitos</a>
                             </li>
                             <li>
-                                <a href="#">O fim</a>
+                                <a href="#f_guerra">O fim</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-            </header>
-        </div>
+            </div>
+        </header>
 
-        <div class="container">
-            <section>
-            <h2>O início da WWII</h2>
+        <section>
+            <div class="container">
+            <div id="i_guerra" class="inicio_guerra">
+                <h2>O início da WWII</h2>
+                
                 <img src="./imagens/Imagem da página secondaria.jpg"/>
                 <p>
                     O início da Segunda Guerra Mundial aconteceu quando as tropas alemãs iniciaram o ataque contra a Polônia, em 1º de setembro de 1939. A Alemanha nazista declarou guerra à Polônia e invadiu o país, o que marcou o início do conflito global.
                 </p>
-            </section>
+            </div>
+            </div>
+        </section>
 
+        <section>
+            <div id="paci" class="pacifico">
+            <div class="container">
+                <h2>A guerra no pácifico e a entrada dos EUA na guerra</h2>
+                
+                <img src="./imagens/Background da página.jpg"/>
+                <p>
+                    A entrada dos EUA na Segunda Guerra Mundial foi o resultado do ataque japonês à base naval de Pearl Harbor, em 7 de dezembro de 1941. O ataque provocou a declaração de guerra dos EUA ao Japão, e fez com que o país se envolvesse diretamente no conflito global.
+                </p>
+            </div>
+            </div>    
+        </section>
+
+        <section>
+            <div class="container">
+            <div id="exer" class="exercito">
+                <h2>O maior exército da guerra</h2>
+                
+                <img src="./imagens/Imagem da página sobre os soviéticos 2.jpg"/>
+                <p>
+                    O maior exército da Segunda Guerra Mundial foi o Exército Vermelho, da União Soviética. O exército soviético era composto por mais de 11 milhões de soldados, e foi responsável por derrotar os nazistas na Europa.
+                </p>
+            </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+            <div id="f_guerra" class="fim_guerra">
+                <h2>O fim da guerra</h2>
+
+                <p>
+                    Os bombardeamentos atômicos de Hiroshima e Nagasaki foram dois bombardeios realizados pelos Estados Unidos contra o Império do Japão durante os estágios finais da Segunda Guerra Mundial, em agosto de 1945. As bombas causaram a destruição quase completa das duas cidades e a morte de centenas de milhares de pessoas. Isto acarratou com que o japão começa-se o seu processo de rendinção, o que viria acarretar no fim da guerra.
+                </p>
+                <img src="./imagens/O fim da guerra (bomba atômica).jpg"/>
+            </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="formulario">
+                    <form>
+                        <p>Deseja receber nossas notificações?</p>
+                        <input type="text" placeholder="Insira seu nome">
+                        <input type="email" placeholder="Insira e-mail">
+                        <input type="tel" placeholder="Insira seu telefone">
+                        <textarea placeholder="Nos mande uma mensagem! :-)"></textarea>
+                        <button type="submit"> Enviar </button>
+                    </form>
+                
+
+                <div class="icones">
+                    <h3>Nos acompanhe</h3>
+                    <a href="#" title="Nos acompanhe no youtube">
+                        <img src="./imagens/youtube.png" alt="youtube">
+                    </a>
+                    <a href="#" title="Nos acompanhe no facebook">
+                        <img src="./imagens/facebook.png" alt="facebook">
+                    </a>
+                    <a href="#" title="Nos siga no instagram">
+                        <img src="./imagens/instagram.png" alt="instagram">
+                    </a>
+                    </div>            
+                </div>
             
-        </div>
+                <div class="autoral">
+                    <p>&copy;  Nicolas - 2024 - Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
     </body>
 
 </html>

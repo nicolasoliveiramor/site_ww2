@@ -1,0 +1,371 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(./imagens/Imagem\ da\ página\ sobre\ os\ soviéticos\.jpg);
+    background-attachment: fixed;
+    margin: 0 40px;
+}
+
+header .container {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+
+h1, h2, h3, button{
+    font-family: "Staatliches", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+p, a, input, textarea {
+    font-family: "Taviraj", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    background-color: #ecf0f1;
+}
+
+#star1 {
+    color: black;
+    width: 42px;
+    position: relative;
+    left: 150px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+#star2 {
+    color: black;
+    width: 42px;
+    position: relative;
+    left: 150px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(60, 60, 60, 1);
+    color: black;
+    align-items: center;
+    padding: 16px;
+}
+
+
+.container h1 {
+    background-color: #ecf0f1;
+    flex-wrap: wrap;
+    position: relative;
+    left: 150px;
+    height: 33.63px;
+}
+
+#star header {
+    flex-wrap: wrap;
+    width: 42px;
+    color: #ecf0f1;
+}
+
+.guias nav li {
+    flex-wrap: wrap;
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 16px;
+}
+
+.guias nav li a {
+    color: #ecf0f1;
+    flex-wrap: wrap;
+    position: relative;
+    left: 550px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.guias nav li a:hover {
+    color: #ecf0f1;
+    flex-wrap: wrap;
+    position: relative;
+    left: 550px;
+    text-decoration: underline;
+    text-underline-offset: 10%;
+}
+
+section .container{
+    background-color: #ecf0f1;
+    height: 60vh;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.inicio_guerra,
+.exercito,
+.fim_guerra {
+    height: 388px;
+}
+
+section img {
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+}
+
+/* Primeira seção */
+
+.inicio_guerra img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 300px;
+    position: relative;
+    top: 1vh;
+    left: 58%;
+}
+
+.inicio_guerra h2 {
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    left: 50px;
+}
+
+.inicio_guerra p {
+    display: block;
+    flex-wrap: wrap;
+    text-align: start;
+    width: 50%;
+    position: relative;
+    bottom: 160px;
+    left: 70px;
+    align-items: center;
+}
+
+/* Segunda seção */
+
+.pacifico {
+    max-height: 388px;
+    background-color : black;
+}
+
+.pacifico img {
+    display: flex;
+    width: 480px;
+    height: 300px;
+    position: relative;
+    top: 1vh;
+    left: 3%;
+}
+
+.pacifico h2 {
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    left: 550px;
+}
+
+.pacifico p {
+    display: block;
+    flex-wrap: wrap;
+    text-align: start;
+    width: 50%;
+    position: relative;
+    bottom: 160px;
+    left: 560px;
+    align-items: center;
+}
+
+/* Terceira seção */
+
+.exercito img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 300px;
+    position: relative;
+    top: 1vh;
+    left: 58%;
+}
+
+.exercito h2 {
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    left: 50px;
+}
+
+.exercito p {
+    display: block;
+    flex-wrap: wrap;
+    text-align: start;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    bottom: 160px;
+    left: 70px;
+}
+
+/* quarta seção */
+
+.fim_guerra img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 300px;
+    position: relative;
+    bottom: 26vh;
+    left: 3%;
+}
+
+.fim_guerra h2 {
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: 550px;
+}
+
+.fim_guerra p {
+    display: block;
+    flex-wrap: wrap;
+    text-align: start;
+    width: 50%;
+    position: relative;
+    top: 110px;
+    left: 560px;
+    align-items: center;
+}
+
+/* formulario */
+
+form {
+    position: relative;
+    background-color: rgb(63, 63, 63);
+    padding-left: 3%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.container input,
+textarea,
+button {
+    width: 280px;
+    height: 24px;
+    display: block;
+    resize: none;
+}
+
+input:focus, text:focus, textarea:focus {
+    outline-color: #ecf0f1;
+}
+
+.formulario {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    background-color: rgb(63, 63, 63);
+    width: 100%;
+    justify-content: space-evenly;
+    box-shadow: 0px -3px 3px 0px rgba(0, 0, 0, 0.6);
+}
+
+.formulario input, textarea, button {
+    border: none; 
+}
+
+.formulario input, textarea{
+    margin-top: 8px;
+    padding-left: 8px;
+}
+
+.formulario button {
+    margin-top: 8px;
+    height: 36px;
+    font-size: large;
+    transform: transition;
+}
+
+.formulario button:hover {
+    border: solid;
+    border-color: #ecf0f1;
+    background-color: black;
+    color: #ecf0f1;
+    transition: 300ms;
+    margin-top: 8px;
+    height: 36px;
+    font-size: large;
+}
+
+.formulario textarea {
+    padding-bottom: 128px;
+}
+
+.icones {
+    padding: 16px;
+    background-color: #ecf0f1;
+    border-radius: 6px;
+}
+
+.icones a {
+    text-decoration: none;
+}
+
+.icones h3 {
+    margin: 0 8px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.icones img{
+    height: 32px;
+    display: inline;
+    margin: 0 8px;
+    align-items: center;
+}
+
+form > p {
+    font-family: "Staatliches", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #ecf0f1;
+    text-align: center;
+    font-size: large;
+}
+
+.autoral {
+    position: absolute;
+    width: 93.89%;
+    padding: 16px 0;
+    color: #ecf0f1;
+    background-color: black;
+    border-top: solid;
+}
+
+.autoral p {
+    text-align: center;
+}
